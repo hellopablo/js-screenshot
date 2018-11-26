@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "JS Screenshot",
+    "homepage_url": "http://github.com/hellopablo/js-screenshot",
+    "description": "Generate screenshots programatically using Javascript + Chrome extension",
+    "version": "1.0",
+    "icons": { "16": "icon.png", "48": "icon.png", "128": "icon.png" },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "js": [
+                "inject.js"
+            ]
+        }
+    ]
+}

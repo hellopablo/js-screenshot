@@ -1,0 +1,19 @@
+{
+  "name": "js-screenshot",
+  "version": "1.0.0",
+  "description": "Generate screenshots programatically using Javascript + Chrome extension",
+  "main": "js-screenshot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellopablo/js-screenshot.git"
+  },
+  "author": "Pablo de la Peña <pablo@hellopablo.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hellopablo/js-screenshot/issues"
+  },
+  "homepage": "https://github.com/hellopablo/js-screenshot#readme"
+}
