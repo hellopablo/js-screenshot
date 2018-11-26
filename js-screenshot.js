@@ -116,7 +116,7 @@ class JSScreenshot {
         //  Ensure link exists in <head>
         let link = document.createElement('link');
         link.rel = 'chrome-webstore-item';
-        link.href = 'https://chrome.google.com/webstore/detail/itemID';
+        link.href = 'https://chrome.google.com/webstore/detail/jhabnfakkhdeonggiocgbghgdnpjdocg';
         document.head.appendChild(link);
 
         chrome.webstore.install(link.href, success, failure);
