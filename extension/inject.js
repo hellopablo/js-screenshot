@@ -18,7 +18,6 @@ let namespace = 'js-screenshot';
     //  Bind events for taking and receiving screenshots
     document
         .addEventListener(namespace + ':take', function(e) {
-            console.log('inject.js', e.detail);
             takeScreenShot(
                 e.detail.id,
                 e.detail.x,
